@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3f2fd;
+    /* align-items: center; */
+}
+.container{
+    background: url(images/bg.png);
+    background-size: cover;
+    position: relative;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 28px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgb(0, 0, 0.1);
+}
+header, .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h5{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.logo img{
+    width: 48px;
+    margin: 0px 10px 0px 0px;
+}
+.chip{
+    width: 48px;
+    
+}
+h6{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    /* font-size: 18px; */
+}
+.section{
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+h5.number{
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.nn h6{
+    font-size: 18px;
+}
+h5.name{
+    margin-top: 20px;
+}
